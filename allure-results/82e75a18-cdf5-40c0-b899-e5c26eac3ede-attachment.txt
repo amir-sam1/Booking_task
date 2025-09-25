@@ -1,0 +1,15 @@
+[ReportManager] Post processing some properties to support platforms-specific restrictions. @25-09-2025 18:27:26.0631 PM
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @25-09-2025 18:27:26.0654 PM
+[ReportManager] Setting "screenshotParams_scalingFactor" property with "1.25". @25-09-2025 18:27:26.0857 PM
+[ReportManager] Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-port=61715, --start-maximized], extensions: []}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, webSocketUrl: true} @25-09-2025 18:27:26.0918 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @25-09-2025 18:27:26.0920 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @25-09-2025 18:27:26.0921 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @25-09-2025 18:27:28.0610 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @25-09-2025 18:27:28.0628 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @25-09-2025 18:27:28.0632 PM
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/testData.xlsx]. @25-09-2025 18:27:29.0744 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/testData.xlsx". @25-09-2025 18:27:29.0746 PM
+[ReportManager] Successfully created attachment 'Test Data - Excel' @25-09-2025 18:27:29.0749 PM
+[ReportManager] Target URL: "https://www.booking.com/" @25-09-2025 18:27:29.0800 PM
+[ReportManager] Initial URL: "about:blank" @25-09-2025 18:27:29.0839 PM
+[ReportManager] Navigate to url "https://www.booking.com/". @25-09-2025 18:27:31.0668 PM
