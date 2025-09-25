@@ -1,10 +1,10 @@
 package pages;
 
 import com.shaft.driver.SHAFT;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class P01_HomePage extends BasePage {
@@ -30,6 +30,7 @@ public class P01_HomePage extends BasePage {
 
 
     //Methods
+    @Step("Search about Alexandria with date from 1 to 14 octobers and click see Availability")
     public P01_HomePage Search(String search) throws InterruptedException {
 
          WebDriverWait wait = new WebDriverWait(driver.getDriver(), Duration.ofSeconds(1));

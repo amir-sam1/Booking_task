@@ -1,6 +1,7 @@
 package pages;
 
 import com.shaft.driver.SHAFT;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class P03_DetailsPage {
@@ -15,7 +16,7 @@ public class P03_DetailsPage {
 
 
     //Methods
-
+    @Step("Assert that the chosen check-in and check-out dates are displayed correctly")
     public void verifyDates(){
         String textOfCheckInDate = driver.getDriver().findElement(checkInDate).getText();
         String textOfCheckOutDate = driver.getDriver().findElement(checkOutDate).getText();

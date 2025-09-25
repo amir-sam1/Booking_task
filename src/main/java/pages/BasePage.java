@@ -1,7 +1,6 @@
 package pages;
 
 import com.shaft.driver.SHAFT;
-import org.openqa.selenium.WebDriver;
 
 import java.util.ArrayList;
 import java.util.List;

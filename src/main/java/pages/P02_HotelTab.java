@@ -1,6 +1,7 @@
 package pages;
 
 import com.shaft.driver.SHAFT;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -15,7 +16,9 @@ public class P02_HotelTab {
 
 
     By firstRowTableAccommodation = By.xpath("//tr[@data-room-table=\"1\"]");
-    By selectAmount = By.xpath("//select[@data-room-id=\"bbasic_0\"]");
+    By selectAmount = By.xpath("(//th[contains(.,'Select amount')]/following::select)[1]");
+
+    By selectBed = By.xpath("(//div[@class=\"rt-bed-type-select\"])[1]/input");
 
     By reserveBtn = By.xpath("//button[@id=\"hp_book_now_button\" and contains(.,'Reserve')]");
     By iWillReserveBtn = By.xpath("(//button[@type=\"submit\"])[3]");
@@ -23,17 +26,23 @@ public class P02_HotelTab {
     By divContainsHotelName = By.xpath("//div[@id=\"wrap-hotelpage-top\"]");
 
 
-
+    @Step("Select the bed and amount and click I’ll reserve button to navigate to the confirmation page")
     public P02_HotelTab reservation() {
 
-        driver.element().click(reserveBtn).
-                and().waitUntil(d->driver.element().click(iWillReserveBtn),Duration.ofSeconds(2));
+        driver.element().waitUntil(d->driver.element().scrollToElement(selectBed),Duration.ofSeconds(2));
+        driver.element().click(selectBed).
+                and().select(selectAmount,"1").
+                and().click(iWillReserveBtn);
+
+        /*driver.element().click(reserveBtn).
+                and().waitUntil(d->driver.element().click(iWillReserveBtn),Duration.ofSeconds(2));*/
 
         return new P02_HotelTab(driver);
 
 
     }
 
+    @Step("assert that the name of the hotel is shown in the box")
     public P03_DetailsPage verifyHotel(){
 
         String getText = driver.getDriver().findElement(verifyHotelName).getText();
