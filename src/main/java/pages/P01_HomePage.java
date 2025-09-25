@@ -25,10 +25,9 @@ public class P01_HomePage extends BasePage {
 
 
 
-
     //Methods
     @Step("Search about Alexandria with date from 1 to 14 octobers and click see Availability")
-    public P01_HomePage Search(String search) throws InterruptedException {
+    public P01_HomePage Search(String search)  {
 
          WebDriverWait wait = new WebDriverWait(driver.getDriver(), Duration.ofSeconds(1));
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".loading-overlay")));

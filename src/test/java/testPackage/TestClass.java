@@ -1,11 +1,7 @@
 package testPackage;
 
 import com.shaft.driver.SHAFT;
-import com.shaft.gui.internal.locator.Locator;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -33,17 +29,16 @@ public class TestClass {
     }
 
 
-    @Test
-    public void E2eTest() throws InterruptedException {
+    @Test(description = "E2E scenario from search to reservation")
+    public void E2eTest()  {
         new P01_HomePage(driver,options).Search(excelData.getCellData("searchInput")).switchToTab(1).
-                reservation().verifyHotel().verifyDates();
+                verifyHotel().reservation().verifyDates();
     }
 
 
     @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
-        /*driver.quit();*/
+    public void tearDown() {
+        driver.quit();
     }
 
 
