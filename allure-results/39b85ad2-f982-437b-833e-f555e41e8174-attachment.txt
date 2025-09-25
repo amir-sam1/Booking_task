@@ -1,0 +1,38 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'testPackage.TestClass.E2eTest'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Expected condition failed: waiting for com.shaft.listeners.internal.WebDriverListener$$Lambda/0x00000205489278c8@7878bbdb (tried for 10 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"css selector","selector":".loading-overlay"} @25-09-2025 21:45:01.0694 PM
+[ReportManager] Type "Where are you going?" @25-09-2025 21:45:01.0942 PM
+[ReportManager] Click "Alexandria Egypt" @25-09-2025 21:45:02.0092 PM
+[ReportManager] Click  and  hold "Check-in date — Check-out date" @25-09-2025 21:45:02.0730 PM
+[ReportManager] Click "We 1 October 2025" @25-09-2025 21:45:02.0858 PM
+[ReportManager] Click "Tu 14 October 2025" @25-09-2025 21:45:03.0040 PM
+[ReportManager] Click "Search" @25-09-2025 21:45:03.0202 PM
+[ReportManager] Element found. @25-09-2025 21:45:13.0668 PM
+[ReportManager] Scroll to element "By.xpath: //button[@type="button"]/span[contains(.,'Load more results')]". @25-09-2025 21:45:13.0903 PM
+[ReportManager] Click "By.xpath: //button[@type="button"]/span[contains(.,'Load more results')]" @25-09-2025 21:45:14.0208 PM
+[ReportManager] Element found. @25-09-2025 21:45:14.0435 PM
+[ReportManager] Scroll to element "See availability". @25-09-2025 21:45:14.0645 PM
+[ReportManager] Click "See availability" @25-09-2025 21:45:15.0480 PM
+[ReportManager] Element found. @25-09-2025 21:45:22.0908 PM
+[ReportManager] Scroll to element "2 twin beds". @25-09-2025 21:45:23.0200 PM
+[ReportManager] Click "2 twin beds" @25-09-2025 21:45:23.0362 PM
+[ReportManager] Select "1" from "Select Rooms". @25-09-2025 21:45:24.0046 PM
+[ReportManager] Click "I'll reserve" @25-09-2025 21:45:24.0348 PM
+[ReportManager] Get Text from "Tolip Hotel Alexandria", text is "Tolip Hotel Alexandria". @25-09-2025 21:45:24.0542 PM
+[ReportManager] Assert that "Tolip Hotel Alexandria" contains "Tolip Hotel Alexandria". @25-09-2025 21:45:24.0548 PM
+[ReportManager] Expected "Tolip Hotel Alexandria", and actual "Tolip Hotel Alexandria" @25-09-2025 21:45:24.0563 PM
+[ReportManager] Expected "Tolip Hotel Alexandria", and actual "Tolip Hotel Alexandria" @25-09-2025 21:45:24.0565 PM
+[ReportManager] Capture element screenshot @25-09-2025 21:45:25.0722 PM
+[ReportManager] Successfully created attachment 'Screenshot - captureScreenshot_21-45-25-721_25092025' @25-09-2025 21:45:25.0724 PM
+[ReportManager] Get Text from element, text is "Wed, Oct 1, 2025". @25-09-2025 21:45:33.0171 PM
+[ReportManager] Get Text from element, text is "Tue, Oct 14, 2025". @25-09-2025 21:45:33.0301 PM
+[ReportManager] Assert that "Wed, Oct 1, 2025" is equal to "Wed, Oct 1, 2025". @25-09-2025 21:45:33.0304 PM
+[ReportManager] Expected "Wed, Oct 1, 2025", and actual "Wed, Oct 1, 2025" @25-09-2025 21:45:33.0306 PM
+[ReportManager] Expected "Wed, Oct 1, 2025", and actual "Wed, Oct 1, 2025" @25-09-2025 21:45:33.0309 PM
+[ReportManager] Assert that "Tue, Oct 14, 2025" is equal to "Tue, Oct 14, 2025". @25-09-2025 21:45:33.0312 PM
+[ReportManager] Expected "Tue, Oct 14, 2025", and actual "Tue, Oct 14, 2025" @25-09-2025 21:45:33.0314 PM
+[ReportManager] Expected "Tue, Oct 14, 2025", and actual "Tue, Oct 14, 2025" @25-09-2025 21:45:33.0314 PM

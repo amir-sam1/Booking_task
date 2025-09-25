@@ -1,0 +1,285 @@
+[INFO ] 2025-09-25 21:44:45.961 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.3.20250823[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-25 21:44:45.973 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-09-25 21:44:45.979 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-09-25 21:44:46.107 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-09-25 21:44:46.396 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-09-25 21:44:46.624 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-09-25 21:44:46.754 [main] Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO ] 2025-09-25 21:44:46.805 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-25 21:44:46.834 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-09-25 21:44:46.936 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'testPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-25 21:44:46.944 [main] ReportManager - Post processing some properties to support platforms-specific restrictions.
+[INFO ] 2025-09-25 21:44:46.953 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-09-25 21:44:47.038 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.25".
+[INFO ] 2025-09-25 21:44:47.067 [main] ReportManager - Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-port=63998, --start-maximized], extensions: []}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, webSocketUrl: true}
+[INFO ] 2025-09-25 21:44:47.068 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-09-25 21:44:47.068 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-09-25 21:44:47.140 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-09-25 21:44:47.165 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-09-25 21:44:47.449 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-09-25 21:44:47.450 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-09-25 21:44:47.451 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-09-25 21:44:47.451 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-09-25 21:44:47.451 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-09-25 21:44:47.452 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.453 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.453 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.454 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.454 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/23)[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.454 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.454 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.454 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-09-25 21:44:47.454 [] headers - >> Accept: */*
+[DEBUG] 2025-09-25 21:44:47.454 [] headers - >> Host: api.github.com
+[DEBUG] 2025-09-25 21:44:47.454 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-09-25 21:44:47.455 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/23)
+[DEBUG] 2025-09-25 21:44:47.455 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-09-25 21:44:47.773 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.775 [] wire -  << "Date: Thu, 25 Sep 2025 18:44:48 GMT[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.776 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.777 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.777 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.777 [] wire -  << "ETag: W/"77b58ee584e127b2cb25e85d0181607eecfc9bfb9bd47b7599e261fcc67f0392"[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.777 [] wire -  << "Last-Modified: Sat, 23 Aug 2025 04:43:44 GMT[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.778 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.778 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.778 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.778 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.778 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.779 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.779 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.779 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.779 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.779 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.779 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.781 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.781 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.781 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.781 [] wire -  << "X-RateLimit-Remaining: 55[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.782 [] wire -  << "X-RateLimit-Reset: 1758828484[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.782 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.782 [] wire -  << "X-RateLimit-Used: 5[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.782 [] wire -  << "Content-Length: 778[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.783 [] wire -  << "X-GitHub-Request-Id: F9FF:3F685A:76B8FD:6BC4EF:68D58DA0[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.783 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-09-25 21:44:47.785 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-09-25 21:44:47.786 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-09-25 21:44:47.787 [] headers - << Date: Thu, 25 Sep 2025 18:44:48 GMT
+[DEBUG] 2025-09-25 21:44:47.787 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-09-25 21:44:47.787 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-09-25 21:44:47.787 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-09-25 21:44:47.788 [] headers - << ETag: W/"77b58ee584e127b2cb25e85d0181607eecfc9bfb9bd47b7599e261fcc67f0392"
+[DEBUG] 2025-09-25 21:44:47.788 [] headers - << Last-Modified: Sat, 23 Aug 2025 04:43:44 GMT
+[DEBUG] 2025-09-25 21:44:47.788 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-09-25 21:44:47.788 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-09-25 21:44:47.788 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-09-25 21:44:47.789 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-09-25 21:44:47.789 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-09-25 21:44:47.789 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-09-25 21:44:47.789 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-09-25 21:44:47.789 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-09-25 21:44:47.790 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-09-25 21:44:47.790 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-09-25 21:44:47.790 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-09-25 21:44:47.790 [] headers - << Server: github.com
+[DEBUG] 2025-09-25 21:44:47.790 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-09-25 21:44:47.790 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-09-25 21:44:47.790 [] headers - << X-RateLimit-Remaining: 55
+[DEBUG] 2025-09-25 21:44:47.791 [] headers - << X-RateLimit-Reset: 1758828484
+[DEBUG] 2025-09-25 21:44:47.791 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-09-25 21:44:47.791 [] headers - << X-RateLimit-Used: 5
+[DEBUG] 2025-09-25 21:44:47.791 [] headers - << Content-Length: 778
+[DEBUG] 2025-09-25 21:44:47.792 [] headers - << X-GitHub-Request-Id: F9FF:3F685A:76B8FD:6BC4EF:68D58DA0
+[DEBUG] 2025-09-25 21:44:47.810 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-09-25 21:44:47.811 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad][0x95][\r]O[0xdb]0[0x10][0x86][0xff]J[0x14][0x84]&U%[0x9]i[0xda][0x95]H[0x88][0x1]-[0x1f]BP1:M[0x1a][0xa0][0xc8]I[0xdc][0xc4][0x9b]c[[0xb6][0xd3][0xae]T[0xfc][0xf7][0x9d][0xd3]P[0x95]h+"
+[DEBUG] 2025-09-25 21:44:47.813 [] wire -  << "hEH[0x15]u[0xed][0xe7][0xce][0xef][0x9d][0xdf][[0xd8][0xa5][0xa4]vh[0xe7]Z[0xb][0x15][0xba].[0x12][0xc4][0xc9][0x88][0xce][0xcb][0xd8]Ix[0xe1]J,[0xb8]r[0xef]r4[0xd1][0x17][0xb7][0xee][0xdd][0xc5][0xf1][0xd9]8[0x1a][0xde][0x9c]_[0xde][0xc][0xe1]'[0x8a][0x91][0xc2][0xca][0xf5][0x3][0xdf][0xf3][0xbc]n[0xaf]g[0xb7]m[0xa4][0x14][0xd6]*[0xfa]8[0xa6][0xbb]$[0x2][0xba][0x14][0x94][0xa3][0xb4][0x81]^.[0xaa][0xff]N[0xb9][0xc6]/[0x8e][0x18]*p[0x9b][0xa2][0x18][0xd3]g[0x88][0x95][0xeb][0x82]6"[0xad][0x89][0xb2]Y[0xe][0x8d]2[0xf7][0xc0][0xe9]8[0xbe][0xe7]w[0xbd][0xbe][0xdf][0x1][0x1c]I[0xed]p[0xa5][0x12][0x88]T[0xea][0x9c]K;\[0xd8][0x94]g[0x84][0x81][0xfa]K[0xf8][0x1e]J4[0xe1]L[0xdd][0xc7]\?[0xd6][0xc7][0x82][0xfd][0xfe]A[0xdf][0xef][0xfb]m[0x9b][0xf1][0x14]G[0x86]d_[0xf][0xae]{[0xb7][0xc5][0x81]w3[0x18][0x6][0xa3]q6[0x1f][\r].[0xf][0x8d][0xf6]S[0xa4][0x91]lj_-[0xbe][0x8]T*,[0x13][0xce]4f[0xba]*/a[0xee]~[0xb7][0xd3][0xeb][0x1f]M[0xf][0x3] d[0xb2]fTa[0x8c][0xe6][0x9b]z[0xc3][0xc0][0x94][0xfb]:[0xf5][0xdd][0xee][0x9]$[0xbf][0xdb][0x1d][0xbc])"[0x12][0xa2]y[0x18][0xce]L8[0xa5]|[0x6][0xdc][0xe6]5^[0xb7][0xe5][0xc6][0xd0][0xee][\n]"
+[DEBUG] 2025-09-25 21:44:47.813 [] wire -  << "[0xb2][0x2][0x12][0x96]m[0xf][0x4][0xc8][0xc2][0xe5]:[0xc7][0xa0]1\[0xdd][0xf4]IF[0xd4][[0xdd][0xbe]9[0xd5][\n]"
+[DEBUG] 2025-09-25 21:44:47.814 [] wire -  << "[0xb0][0x0][0x11][0x95][0x86][0xda][0x1a][0xa4][0x82]rI[0xdc][0xec][0xf3][0xc6][0xb3][0xdc][0xc][0xad][0x11][0x90][0xec][0x8c]A[0x9e][0x8b][0xea][0x15]W[0xec]2V[0x89]$[0xa2][0xea][0xb2]m[0x4]y[0x5][0x2]0[0x97][0x19]b[0xe4][0x9]m[\r][0x6][0x90][0x2]^e;[0xdb]$X[0x1][0x0][0x84][0xa7][0xd0][0xea][[0x91][0x96][0x84][0x85]+$[0x99][0xa2]dnd[0x94]8[0xc1]d[\n]"
+[DEBUG] 2025-09-25 21:44:47.814 [] wire -  << "5[0xda][0x9e][0xde]@[0x1]\[0xcf][0x5][0x86][0xc7]w[0xc2]5|1u[0x8e][0xa6][0x4][0xcf][0xa2]zY[0x94]1%[0x89])%[0xd1]8Bia[0xec]c[0x82][0xa8][0xc2][0xcf][0xeb][0xe][0xf1]u[0x18][0xfd][0x9a][\r]F[0xa7][0xe7]x[0xdc]S[0xc1]([0xbe][0xba][0xf2][\r][0x1a]e[0x91][0xf1]9[0xc0]7[0xc][\n]"
+[DEBUG] 2025-09-25 21:44:47.814 [] wire -  << "z.[0xc3]:[0x2]K([0x88]&*[0x87][0x1d][0x5][0x2]40[0xff][0xba]?[0x95]0[0x10][0xea][0xc0]`oEQj[0x14]S[0x0]W[0xa9][0xb4]m!q=[0x1e]VK[0x89][0xc4]H[0x83]f[0x8][0xce][0xd9][0xc6][0x1b][0xf7][0xbc][0xfe][0x9e][0xdf][0x19]{A[0x18]tB[0xdf][0xff]a[0xae]+[0xd2][\r]{[0x82][0xc0][0xec][0xa9][0x14]P[0xf9]?I[0xcb]][0xf5][0xd4][0x8][0xef][0x1f][0xcd][0xb5]e[0x8c]h[0xd3][0xcf][0xdf]?[0xe8][0xea][0xf3]MS"b+l}[0xbe][0x89][0x8d]y:[0x7][0x85]vv[0xac][0xef]9[0xd2][0x9f][0x94]u[0x9a]#[0x96][0xe1][0xf4][0x81][0xb5],U[\n]"
+[DEBUG] 2025-09-25 21:44:47.814 [] wire -  << "[0xc1][0xa5][0xb6]&\Z([0x83][0xce]&[0xc9]1[0xb1][\n]"
+[DEBUG] 2025-09-25 21:44:47.814 [] wire -  << "[0x18][0xc]V<[0xb7][0xbe]\[0xf3][0x1c][0xc5][0xf0]A[0xb0]E[0x98][0xf5]2[0xd1][0xdf][0x1a]\[0xa2][0xa4][0xd4][0xf5][0xbd][0xcf][0x81][0x89][0xf0][0xad][0xaa][0x80]u[0xbc][0x1c]D[0xce]O[0x98][0x7][0xd6][0x84][0xfc][0x6][0xeb][0xb3][0xc0]9[0xc0][0x9c][0xcd]&|[0xc1]cB[0xb1]UO[0xac][0xf][0x8][0xdf]5[0xe1][0xd7][0xdb][0xf2][0x3][0x98][0xbd][0x7]f[0xfe]Z[0xad]3[0xb8]c-$[0x8c][0xdc]V+|[0xb7]:[0xf0]$[0x4][0x92]x[0xbd]J[0xbe][0xe3]8[0x8d][0xf7]S[0x98]Z[0x18]OMx[0xc9][0xa0][0xc1][0xf7][0x9f][0xff][0x0][0xcb][0xd9]4[0x12]X[0x9][0x0][0x0]"
+[DEBUG] 2025-09-25 21:44:47.815 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-09-25 21:44:47.933 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1091849e
+[DEBUG] 2025-09-25 21:44:47.934 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-09-25 21:44:48.121 [main] ReportManager - Sep 25, 2025 9:44:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-09-25 21:44:48.121 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+[INFO ] 2025-09-25 21:44:48.129 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-09-25 21:44:48.135 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2025-09-25 21:44:48.137 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-09-25 21:44:48.262 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-09-25 21:44:48.266 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2025-09-25 21:44:48.589 [] ReportManager - You're using the latest engine version "9.3.20250823". 👍
+[INFO ] 2025-09-25 21:44:48.727 [main] ReportManager - Reading test data from the following file [src/test/resources/testDataFiles/testData.xlsx].
+[INFO ] 2025-09-25 21:44:48.728 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/testData.xlsx".
+[INFO ] 2025-09-25 21:44:48.730 [main] ReportManager - Successfully created attachment 'Test Data - Excel'
+[INFO ] 2025-09-25 21:44:48.756 [main] ReportManager - Target URL: "https://www.booking.com/"
+[INFO ] 2025-09-25 21:44:48.779 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-09-25 21:44:51.235 [main] ReportManager - Navigate to url "https://www.booking.com/".
+[INFO ] 2025-09-25 21:44:51.239 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2025-09-25 21:44:51.320 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'testPackage.TestClass.E2eTest'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-25 21:45:01.694 [main] ReportManager - Expected condition failed: waiting for com.shaft.listeners.internal.WebDriverListener$$Lambda/0x00000205489278c8@7878bbdb (tried for 10 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"css selector","selector":".loading-overlay"}
+[WARN ] 2025-09-25 21:45:01.703 [main] ReportManager - Sep 25, 2025 9:45:01 PM org.openqa.selenium.support.events.EventFiringDecorator callListenerMethod
+[WARN ] 2025-09-25 21:45:01.703 [main] ReportManager - WARNING: null
+[WARN ] 2025-09-25 21:45:01.705 [main] ReportManager - java.lang.reflect.InvocationTargetException
+[WARN ] 2025-09-25 21:45:01.705 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+[WARN ] 2025-09-25 21:45:01.706 [main] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2025-09-25 21:45:01.706 [main] ReportManager - 	at org.openqa.selenium.support.events.EventFiringDecorator.callListenerMethod(EventFiringDecorator.java:355)
+[WARN ] 2025-09-25 21:45:01.707 [main] ReportManager - 	at org.openqa.selenium.support.events.EventFiringDecorator.fireBeforeEvents(EventFiringDecorator.java:253)
+[WARN ] 2025-09-25 21:45:01.708 [main] ReportManager - 	at org.openqa.selenium.support.events.EventFiringDecorator.lambda$beforeCall$0(EventFiringDecorator.java:189)
+[WARN ] 2025-09-25 21:45:01.709 [main] ReportManager - 	at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4266)
+[WARN ] 2025-09-25 21:45:01.709 [main] ReportManager - 	at org.openqa.selenium.support.events.EventFiringDecorator.beforeCall(EventFiringDecorator.java:189)
+[WARN ] 2025-09-25 21:45:01.710 [main] ReportManager - 	at org.openqa.selenium.support.decorators.DefaultDecorated.beforeCall(DefaultDecorated.java:43)
+[WARN ] 2025-09-25 21:45:01.711 [main] ReportManager - 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:404)
+[WARN ] 2025-09-25 21:45:01.711 [main] ReportManager - 	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$vyospR8v.findElement(Unknown Source)
+[WARN ] 2025-09-25 21:45:01.712 [main] ReportManager - 	at org.openqa.selenium.support.ui.ExpectedConditions$20.apply(ExpectedConditions.java:569)
+[WARN ] 2025-09-25 21:45:01.712 [main] ReportManager - 	at org.openqa.selenium.support.ui.ExpectedConditions$20.apply(ExpectedConditions.java:565)
+[WARN ] 2025-09-25 21:45:01.713 [main] ReportManager - 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+[WARN ] 2025-09-25 21:45:01.713 [main] ReportManager - 	at pages.P01_HomePage.Search(P01_HomePage.java:34)
+[WARN ] 2025-09-25 21:45:01.714 [main] ReportManager - 	at testPackage.TestClass.E2eTest(TestClass.java:38)
+[WARN ] 2025-09-25 21:45:01.714 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2025-09-25 21:45:01.714 [main] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2025-09-25 21:45:01.715 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+[WARN ] 2025-09-25 21:45:01.715 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+[WARN ] 2025-09-25 21:45:01.715 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+[WARN ] 2025-09-25 21:45:01.716 [main] ReportManager - 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[WARN ] 2025-09-25 21:45:01.716 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+[WARN ] 2025-09-25 21:45:01.716 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+[WARN ] 2025-09-25 21:45:01.716 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+[WARN ] 2025-09-25 21:45:01.717 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+[WARN ] 2025-09-25 21:45:01.717 [main] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+[WARN ] 2025-09-25 21:45:01.717 [main] ReportManager - 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+[WARN ] 2025-09-25 21:45:01.717 [main] ReportManager - 	at org.testng.TestRunner.run(TestRunner.java:616)
+[WARN ] 2025-09-25 21:45:01.718 [main] ReportManager - 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+[WARN ] 2025-09-25 21:45:01.718 [main] ReportManager - 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+[WARN ] 2025-09-25 21:45:01.718 [main] ReportManager - 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+[WARN ] 2025-09-25 21:45:01.718 [main] ReportManager - 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+[WARN ] 2025-09-25 21:45:01.718 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+[WARN ] 2025-09-25 21:45:01.719 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+[WARN ] 2025-09-25 21:45:01.719 [main] ReportManager - 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+[WARN ] 2025-09-25 21:45:01.719 [main] ReportManager - 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+[WARN ] 2025-09-25 21:45:01.719 [main] ReportManager - 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+[WARN ] 2025-09-25 21:45:01.719 [main] ReportManager - 	at org.testng.TestNG.run(TestNG.java:1079)
+[WARN ] 2025-09-25 21:45:01.719 [main] ReportManager - 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+[WARN ] 2025-09-25 21:45:01.719 [main] ReportManager - 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[WARN ] 2025-09-25 21:45:01.720 [main] ReportManager - Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.shaft.listeners.internal.WebDriverListener$$Lambda/0x00000205489278c8@7878bbdb (tried for 10 second(s) with 100 milliseconds interval)
+[WARN ] 2025-09-25 21:45:01.720 [main] ReportManager - 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+[WARN ] 2025-09-25 21:45:01.720 [main] ReportManager - 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+[WARN ] 2025-09-25 21:45:01.720 [main] ReportManager - 	at com.shaft.listeners.internal.WebDriverListener.beforeFindElement(WebDriverListener.java:56)
+[WARN ] 2025-09-25 21:45:01.720 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2025-09-25 21:45:01.720 [main] ReportManager - 	... 39 more
+[WARN ] 2025-09-25 21:45:01.721 [main] ReportManager - Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".loading-overlay"}
+[WARN ] 2025-09-25 21:45:01.721 [main] ReportManager -   (Session info: chrome=140.0.7339.129)
+[WARN ] 2025-09-25 21:45:01.721 [main] ReportManager - For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+[WARN ] 2025-09-25 21:45:01.721 [main] ReportManager - Build info: version: '4.35.0', revision: '1c58e5028b'
+[WARN ] 2025-09-25 21:45:01.721 [main] ReportManager - System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+[WARN ] 2025-09-25 21:45:01.721 [main] ReportManager - Driver info: org.openqa.selenium.chrome.ChromeDriver
+[WARN ] 2025-09-25 21:45:01.722 [main] ReportManager - Command: [24fa8746f667ebcaf0730c34e744e6bb, findElement {using=css selector, value=.loading-overlay}]
+[WARN ] 2025-09-25 21:45:01.722 [main] ReportManager - Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63998}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63998/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webSocketUrl: ws://localhost:31193/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[WARN ] 2025-09-25 21:45:01.722 [main] ReportManager - Session ID: 24fa8746f667ebcaf0730c34e744e6bb
+[WARN ] 2025-09-25 21:45:01.722 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[WARN ] 2025-09-25 21:45:01.723 [main] ReportManager - 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+[WARN ] 2025-09-25 21:45:01.723 [main] ReportManager - 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+[WARN ] 2025-09-25 21:45:01.723 [main] ReportManager - 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+[WARN ] 2025-09-25 21:45:01.724 [main] ReportManager - 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+[WARN ] 2025-09-25 21:45:01.724 [main] ReportManager - 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+[WARN ] 2025-09-25 21:45:01.724 [main] ReportManager - 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+[WARN ] 2025-09-25 21:45:01.724 [main] ReportManager - 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+[WARN ] 2025-09-25 21:45:01.724 [main] ReportManager - 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+[WARN ] 2025-09-25 21:45:01.724 [main] ReportManager - 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+[WARN ] 2025-09-25 21:45:01.725 [main] ReportManager - 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+[WARN ] 2025-09-25 21:45:01.725 [main] ReportManager - 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+[WARN ] 2025-09-25 21:45:01.725 [main] ReportManager - 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+[WARN ] 2025-09-25 21:45:01.725 [main] ReportManager - 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+[WARN ] 2025-09-25 21:45:01.725 [main] ReportManager - 	at com.shaft.listeners.internal.WebDriverListener.lambda$beforeFindElement$0(WebDriverListener.java:56)
+[WARN ] 2025-09-25 21:45:01.725 [main] ReportManager - 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+[WARN ] 2025-09-25 21:45:01.725 [main] ReportManager - 	... 41 more
+[ERROR] 2025-09-25 21:45:01.942 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:01.943 [main] ReportManager - Type "Where are you going?"
+[ERROR] 2025-09-25 21:45:02.091 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:02.092 [main] ReportManager - Click "Alexandria Egypt"
+[ERROR] 2025-09-25 21:45:02.730 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:02.730 [main] ReportManager - Click  and  hold "Check-in date — Check-out date"
+[ERROR] 2025-09-25 21:45:02.857 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:02.858 [main] ReportManager - Click "We 1 October 2025"
+[ERROR] 2025-09-25 21:45:03.039 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:03.040 [main] ReportManager - Click "Tu 14 October 2025"
+[ERROR] 2025-09-25 21:45:03.201 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:03.202 [main] ReportManager - Click "Search"
+[DEBUG] 2025-09-25 21:45:13.668 [main] ReportManager - Element found.
+[INFO ] 2025-09-25 21:45:13.903 [main] ReportManager - Scroll to element "By.xpath: //button[@type="button"]/span[contains(.,'Load more results')]".
+[ERROR] 2025-09-25 21:45:14.207 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:14.209 [main] ReportManager - Click "By.xpath: //button[@type="button"]/span[contains(.,'Load more results')]"
+[DEBUG] 2025-09-25 21:45:14.435 [main] ReportManager - Element found.
+[INFO ] 2025-09-25 21:45:14.645 [main] ReportManager - Scroll to element "See availability".
+[ERROR] 2025-09-25 21:45:15.479 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:15.481 [main] ReportManager - Click "See availability"
+[DEBUG] 2025-09-25 21:45:22.908 [main] ReportManager - Element found.
+[INFO ] 2025-09-25 21:45:23.200 [main] ReportManager - Scroll to element "2 twin beds".
+[ERROR] 2025-09-25 21:45:23.362 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:23.362 [main] ReportManager - Click "2 twin beds"
+[INFO ] 2025-09-25 21:45:24.046 [main] ReportManager - Select "1" from "Select Rooms".
+[ERROR] 2025-09-25 21:45:24.348 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:24.348 [main] ReportManager - Click "I'll reserve"
+[INFO ] 2025-09-25 21:45:24.543 [main] ReportManager - Get Text from "Tolip Hotel Alexandria", text is "Tolip Hotel Alexandria".
+[INFO ] 2025-09-25 21:45:24.548 [main] ReportManager - Assert that "Tolip Hotel Alexandria" contains "Tolip Hotel Alexandria".
+[ERROR] 2025-09-25 21:45:24.562 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[DEBUG] 2025-09-25 21:45:24.563 [main] ReportManager - Expected "Tolip Hotel Alexandria", and actual "Tolip Hotel Alexandria"
+[INFO ] 2025-09-25 21:45:24.566 [main] ReportManager - Expected "Tolip Hotel Alexandria", and actual "Tolip Hotel Alexandria"
+[ERROR] 2025-09-25 21:45:24.570 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:25.722 [main] ReportManager - Capture element screenshot
+[INFO ] 2025-09-25 21:45:25.724 [main] ReportManager - Successfully created attachment 'Screenshot - captureScreenshot_21-45-25-721_25092025'
+[INFO ] 2025-09-25 21:45:33.172 [main] ReportManager - Get Text from element, text is "Wed, Oct 1, 2025".
+[INFO ] 2025-09-25 21:45:33.301 [main] ReportManager - Get Text from element, text is "Tue, Oct 14, 2025".
+[INFO ] 2025-09-25 21:45:33.304 [main] ReportManager - Assert that "Wed, Oct 1, 2025" is equal to "Wed, Oct 1, 2025".
+[ERROR] 2025-09-25 21:45:33.305 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[DEBUG] 2025-09-25 21:45:33.306 [main] ReportManager - Expected "Wed, Oct 1, 2025", and actual "Wed, Oct 1, 2025"
+[INFO ] 2025-09-25 21:45:33.310 [main] ReportManager - Expected "Wed, Oct 1, 2025", and actual "Wed, Oct 1, 2025"
+[ERROR] 2025-09-25 21:45:33.310 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:33.312 [main] ReportManager - Assert that "Tue, Oct 14, 2025" is equal to "Tue, Oct 14, 2025".
+[ERROR] 2025-09-25 21:45:33.313 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[DEBUG] 2025-09-25 21:45:33.314 [main] ReportManager - Expected "Tue, Oct 14, 2025", and actual "Tue, Oct 14, 2025"
+[INFO ] 2025-09-25 21:45:33.314 [main] ReportManager - Expected "Tue, Oct 14, 2025", and actual "Tue, Oct 14, 2025"
+[ERROR] 2025-09-25 21:45:33.314 [main] AllureLifecycle - Could not update step: step with uuid 187de4ed-2c0e-45aa-b9b4-11c510b6322c not found
+[INFO ] 2025-09-25 21:45:33.321 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: E2eTest'
+[INFO ] 2025-09-25 21:45:33.322 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Finished Execution of Test Method: 'testPackage.TestClass.E2eTest'                                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-25 21:45:33.346 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                        'testPackage.TestClass.tearDown'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-25 21:45:38.367 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-25 21:45:38.369 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

@@ -3,15 +3,15 @@ package pages;
 import com.shaft.driver.SHAFT;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class P01_HomePage extends BasePage {
-    By newTabLink = By.linkText("Open New Tab");
 
-    public P01_HomePage(SHAFT.GUI.WebDriver driver) {
-        super(driver);
+    public P01_HomePage(SHAFT.GUI.WebDriver driver , ChromeOptions options) {
+        super(driver, options);
     }
     //Locators
     By searchInput = By.xpath("//input[@name=\"ss\"]");
@@ -22,9 +22,6 @@ public class P01_HomePage extends BasePage {
     By searchBtn = By.xpath("//button[@type=\"submit\"]");
     By loadMoreBtn = By.xpath("//button[@type=\"button\"]/span[contains(.,'Load more results')]");
     By seeAvailabilityBtn = By.xpath("(//a[contains(@href,'ttps://www.booking.com/hotel/eg/royal-tulip-alexandria.html?label=gen173nr')])[6]");
-
-
-
 
 
 
@@ -43,42 +40,15 @@ public class P01_HomePage extends BasePage {
                 and().waitUntil(d->driver.element().click(checkOutDate),Duration.ofSeconds(2)).
                 and().click(searchBtn).
                 and().waitUntil(d->driver.element().scrollToElement(loadMoreBtn),Duration.ofSeconds(5)).
-
                and().waitUntil(d->driver.element().click(loadMoreBtn),Duration.ofSeconds(2)).
                 and().waitUntil(d->driver.element().scrollToElement(seeAvailabilityBtn),Duration.ofSeconds(5)).
                 and().waitUntil(d->driver.element().click(seeAvailabilityBtn),Duration.ofSeconds(2));
 
 
 
-/*
-        if (driver.getDriver().findElement(seeAvailabilityBtn).isDisplayed()) {
-            driver.element().click(seeAvailabilityBtn);
-
-
-        }
-        else {
-            // Keep clicking "Load More" until "See Availability" appears
-            while (!driver.getDriver().findElement(seeAvailabilityBtn).isDisplayed()) {
-                driver.element().waitUntil(d->driver.element().scrollToElement(loadMoreBtn),Duration.ofSeconds(5));
-                driver.element().click(loadMoreBtn);
-                // small wait between retries to avoid flooding
-                driver.browser().waitForLazyLoading();
-            }
-            driver.element().click(seeAvailabilityBtn);
-        }
-        */
-
-
-
-        return new P01_HomePage(driver);
+        return new P01_HomePage(driver, options);
 
     }
 
-    public P02_HotelTab clickNewTabLink() {
-        driver.element().click(newTabLink);
-
-        return new P02_HotelTab(driver);
-
-    }
 
 }
